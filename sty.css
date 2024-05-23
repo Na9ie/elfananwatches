@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 4px 4px 10px red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header {
+    position: relative;
+    color: #ffffff;
+}
+
+.user-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.user-info i {
+    margin-right: 5px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.product button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+.no-products {
+    text-align: center;
+    color: #555;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        justify-content: center;
+    }
+    .product {
+        width: 100%;
+    }
+}

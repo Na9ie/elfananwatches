@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #f8f9fa; */
+    background: linear-gradient(to right, #464444, #797e7f);
+    /* background-color: #000; */
+    color: #333;
+}
+.form1{
+    text-align: center;
+    width: 600px;
+    border: 5px solid wheat ;
+    margin-left: 400px;
+    padding: 30px;
+    background: linear-gradient(to right, #343231, #00ADD0);
+
+}
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.but1{
+    background: linear-gradient(to right, #343231, #00ADD0);
+
+}
+.but1:hover{
+    background: linear-gradient(to right,#00ADD0 , #343231);
+
+}
+
+
+h2, h3 {
+    /* color: #007bff; */
+    color: wheat;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    /* color: #555; */
+    color: wheat;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.success {
+    color: #28a745;
+}
+
+.error {
+    color: #dc3545;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ffffff;
+    text-align: left;
+    color: white;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+td img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f8ff;
+    margin-right: 10px;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    background-color: #ddd;
+    color: #000;
+    border-radius: 10px;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+}
